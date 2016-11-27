@@ -1,0 +1,12 @@
+== Filename Image Overlay ==
+
+- Preprocess *.JPG in each subdirectory and overlay the date the image was created
+- Generate a video from each of these images
+- Clean up temporary files and copy to output folder
+
+--------------
+.
+├── step_1_preprocess.sh
+├── step_2_generate_video.sh
+└── step_3_clean_up.sh
+--------------
